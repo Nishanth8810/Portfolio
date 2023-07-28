@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <title>
+   Portfolio
+  </title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e0a83754ae.js" crossorigin="anonymous"></script>
+  
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="" class="logo">
+          <ul id="sidemenu">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class=" fas fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+        <div class="header-text">
+          <p>UI/UX Designer</p>
+          <h1>Hi, I'm <span>Nishanth S</span><br>From India</h1>
+        </div>
+      </div>
+    </div>
+<!-- aboutsection -->
+
+    <div id="about"></div>
+    <div class="container">
+       <div class="row">
+        <div class="about-col-1">
+        <img class="img" src="Images/My project-1.png"></div>
+        <div class="about-col-2">
+        <h1 class="subtitle">About me</h1>
+        <p> I'm Nishanth, a UI/UX designer with an unyielding passion for creating intuitive and user-centric designs. I firmly believe that understanding the end-users is the cornerstone of exceptional design. That's why I'm devoted to conducting in-depth research, diving into user personas, and empathizing with their pain points to truly grasp what drives them. Armed with these insights, I set out to design solutions that not only meet their expectations but exceed them.</p>
+        <div class="tab-title">
+          <p class="tab-links active-link "onclick="opentab('skills')">Skills</p>
+          <p class="tab-links"onclick="opentab('experience')">Experience</p>
+          <p class="tab-links"onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li>
+              <span>
+                UI?UX
+              </span>
+              <br>
+              Designing Web/App interfaces
+            </li>
+            <li>
+              <span>
+                Web Development
+              </span>
+              <br>
+              Designing Web/App Development
+            </li>
+            <li>
+              <span>
+                App Development
+              </span>
+              <br>
+            Building Android/iOS apps
+            </li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li>
+              <span>
+                UI?UX
+              </span>
+              <br>
+              1 month
+            </li>
+            <li>
+              <span>
+                Web Development
+              </span>
+              <br>
+             2 Weeks
+            </li>
+            <li>
+              <span>
+                App Development
+              </span>
+              <br>
+            1 Week
+            </li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li>
+              <span>
+                Graduation
+              </span>
+              <br>
+              Bsc Computer Science <br>UIT Kuruvankonam,Trivandrum
+            </li>
+            <li>
+              <span>
+                Higher Education
+              </span>
+              <br>
+             SMV HSS Thampanoor,Trivandrum
+            </li>
+            <li>
+              <span>
+               Internship
+              </span>
+              <br>
+           Brotoype
+            </li>
+          </ul>
+        </div>
+       </div>
+    </div>
+   <!-- ----------------services-------------- -->
+   <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My services</h1>
+      <div class="services-list">
+        <div>
+          <h2>Web Design</h2>
+          <p>I' am  passionate about crafting stunning and effective digital experiences that leave a last.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <h2>UI/UX Design</h2>
+          <p>I' am dedicated to crafting exceptional user experiences that bring together the perfect blend of aesthetics and functionality.</p>
+          <a href="#">Learn more</a>
+        </div>
+        
+      </div>
+    </div>
+   </div>
+   <!---------- Portfolio ------>
+   <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-titile">My work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img class="imgs" src="Images/Screenshot 2023-07-28 144237.png" >
+          <div class="layer">
+            <h3>Youtube Clone</h3>
+            <p>The app connects you to the talented people around the world.Download it from play store.</p>
+            <a href="https://github.com/Nishanth8810/WebsiteYT.git">link</a>
+          </div>
+        </div>
+        <div class="work">
+          <img class="imgs" src="Images/Screenshot 2023-07-28 144304.png" >
+          <div class="layer">
+            <h3>Google Pixel</h3>
+            <p>The app connects you to the talented people around the world.Download it from play store.</p>
+            <a href="https://github.com/Nishanth8810/WebsiteGooglePixel.git">link</a>
+          </div>
+          
+        </div>
+        <div class="work">
+          <img class="imgs" src="Images/Screenshot 2023-07-28 144343.png" >
+          <div class="layer">
+            <h3>Amazon shopping Clone</h3>
+            <p>The app connects you to the talented people around the world.Download it from play store.</p>
+            <a href="https://github.com/Nishanth8810/javascript-amazon-project-main.git">link</a>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+   </div>
+   <!-- contact -->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left"> 
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i></i>nishanths8810@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i>9072175972</p>
+                <div class="social-icons">
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/nishanth-s-26875b256/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-solid fa-paper-plane"></i></a>
+                </div>
+                <a href="Images/CV.png" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Messages"  rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form> 
+           </div>
+    </div>
+    <div class="copyright ">
+        <p>Copyright @ Nishanth<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+</body>
+  <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+<script>
+var sidemenu = document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbySHZO09jJV1vbiSTu5_1Y3Yy6A77NLKJlIELu5-x-pPfqTX50FjLhL9m-i6xwlzVaP/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  });
+</script>
+
+  </body>
+</html>
